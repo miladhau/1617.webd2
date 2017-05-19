@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    background-color: rgb(245, 245, 245);
+}
+
+h1 {
+    color: deepskyblue;
+    text-align: left;
+    display: block;
+    border-bottom: 5%;
+    border-top: 5%;
+    text-decoration: underline;
+    text-decoration-style:  slategrey;
+    font-family:  'Ubuntu', sans-serif;
+   
+}
+.de_weg_naar_succes {
+    border-color: deepskyblue;
+    border-bottom: 5%;
+    border-top: 5%;
+}
+#intro {
+    color: grey;
+}
+.tussentitels {
+    color: deepskyblue; 
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: deepskyblue;
+    transition-delay: 0.148257s;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+p {
+    color: grey;
+    font-family: 'Dosis', sans-serif;
+}
+
+.images {
+    max-width: 100%;
+    height: auto; 
+     
+}
+
+.fases {
+    color: grey;
+}
+.firstWords {
+    font-style: italic;
+    color: deepskyblue;
+}
+li {
+    padding:10px;
+}
+.button{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+a.button {
+    transition: 0.3s;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    color: grey;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    text-decoration: none;
+}
+a.button:hover{
+    transition: 0.3s;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+    color: deepskyblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: deepskyblue;
+}
+ a.button:visited {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#space {
+    margin-bottom: 75px;
+}
+
+#wereldkaart {
+    max-width: 100%;
+    height: auto;
+}
+.footer {
+    background: deepskyblue;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-style: solid;
+    border-color: deepskyblue;
+    margin: 20px 0px 20px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.footer_info {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+    color: black;
+    background-color: lightgray;
+    margin: 0 0 0 0;
+    padding-top: 0px;
+    
+}
+.onzeKlantenImages {
+    max-width: 30%;
+    height: auto;
+}
+.onzeKlantenImages:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#introklanten {
+    display: block;
+    position: relative;
+    float: left;
+    text-align: right;
+    margin-left: 50%;
+    border-bottom: 4px solid deepskyblue;
+    border-top: 4px solid deepskyblue;
+}
+#contactintro {
+    display: block;
+    position: relative;
+    float: left;
+    text-align: right;
+    margin-left: 70%;
+    border-bottom: 4px solid deepskyblue;
+    border-top: 4px solid deepskyblue;
+}
+
+
+h3 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+#form-box {
+    text-align: center;
+    position: relative;
+    margin-bottom: 10%;
+    background-image: url(afbeeldingen_en_grafische_elementen/gras.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul.topnavigation{
+    background-color: deepskyblue;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul.topnavigation li:visited {
+    text-decoration: none;
+}
+
+ul.topnavigation li:hover{
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+
+}
+ 
+
+.D-Hauwer_Design_logo {
+    float: left;
+    position: left;
+
+}
+
+ul.topnavigation  li {
+    text-align: right;
+    margin: 0%;
+    display: inline;
+    border: 0%;
+    border-color: deepskyblue;
+    fill: deepskyblue;
+    text-decoration: none;
+    color: grey;
+    list-style-type: none;
+    
+}
+
+.socialMedia {
+    transition: 0.3s;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    width: 6%;
+    position: relative;
+}
+.socialMedia:hover {
+    cursor: pointer;
+    height: auto;
+    width: 7%;
+}
+.socialMedia:visited {
+    text-decoration: none;
+}
+ 
+nav {
+    background-color: grey;
+    text-align: center;
+    padding: 1%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1px 13px;
+    padding-top: 3px;
+    transition:0.3s;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+    color: deepskyblue;
+}
+
+nav li a:visited {
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    float: left;
+   
+}
+.opener {
+    position: relative;
+    text-align: right;
+    margin-left: 55%;
+}
+
+.geoliede_machine_foto{
+    display: none;
+    max-width: 100%;
+    height: auto;
+}
+.belangrijke woorden {
+    font-weight: bold;
+    color: deepskyblue;
+}
+.titelicoon {
+    text-align: center;
+}
+
+#strak {
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    position: relative;
+    border-style: solid;
+    border-color: deepskyblue;
+    border-width: 5px;
+    max-width: 280px;
+    min-width: 260px;
+}
+
+#strak img{    
+    margin: 0 auto 0 auto;
+}
+
+#strak p{    
+    text-align: justify;
+}
+
+.flexcontainer {
+  max-width: 1200px;
+  display: flex;
+  -webkit-flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+  }
+  
+  iframe {
+      width: 100%;
+      padding: 0 0 0 0;
+  }
+  
+  .map {
+    margin-top: 5%;
+    max-width: 1200px;
+    width:100%;
+    height: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: deepskyblue;
+    padding: 0 0 0 0;
+  }
+
+.over_ons_images {
+      max-width: 50%;
+      height: auto;
+      margin: 0 auto 0 auto;
+  }
+.over ons hoofdpunten p{
+    text-align: justify;
+}
+.over ons hoofdpunten {
+     text-align: center;
+    padding: 5px;
+    margin: 15px;
+    position: relative;
+    border-style: solid;
+    border-color: deepskyblue;
+    border-width: 5px;
+    max-width: 280px;
+    min-width: 260px;
+}
+.flexcontainer2 {
+  max-width: 1200px;
+  display: flex;
+  -webkit-flex: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+  }
+
+  .mediaFooter {
+      background-color: grey;
+      padding: auto auto;
+      margin: 0 auto 0 auto;
+
+  }
+
+  iframe {
+      border-style: solid;
+      border-width: 7%;
+      border-color: deepskyblue;
+  }
+
+@media screen and (max-width:375px) {
+    .container{
+        width:100%;
+        margin: none;
+    }
+
+    .de_weg_naar_succes{
+        text-align: left;
+        border-bottom: 5%;
+        border-color: deepskyblue;
+        border-style: solid;
+        border-width: 5%
+    }
+
+
+    nav {
+        padding: 0px;
+    }
+   
+    nav li {
+        display: block;
+        padding: 1%;
+    }
+
+    nav li a:hover{
+        color: deepskyblue;
+        text-decoration: underline;
+    }
+    .logo {
+        display: inline;
+    }
+    .geoliede_machine_foto{
+        display: ruby;
+    }
+    iframe {
+        max-width: 100%;
+    }
+}
+
